@@ -107,7 +107,7 @@ function App() {
         <h2>Guess the Path!!</h2>
         <div className="rules">
           <h5>
-            The path is visible for 10 seconds. Remember it and click in the correct order.
+            The path is visible for 10 seconds. Remember it and click in the correct order (Top to bottom).
             {showGrid && showPath && (
               <CountdownTimer onComplete={() => setShowPath(false)} />
             )}
