@@ -5,6 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #363636;
+  scroll-behavior: unset;
 }
 @font-face {
   font-family: Minecraftia;
