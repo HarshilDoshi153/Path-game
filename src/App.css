@@ -34,8 +34,8 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(25, 32px);
-  grid-template-rows: repeat(25, 32px);
+  grid-template-columns: repeat(15, 32px);
+  grid-template-rows: repeat(15, 32px);
   gap: 5px;
 }
 .cell {

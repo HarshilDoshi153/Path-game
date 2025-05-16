@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
-  const gridSize = 25;
+  const gridSize = 15;
   const [highlightedCells, setHighlightedCells] = useState([]);
   const [guessedCells, setGuessedCells] = useState([]);
   const [showGrid, setShowGrid] = useState(false);
